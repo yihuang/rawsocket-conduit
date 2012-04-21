@@ -1,6 +1,7 @@
 module Data.Conduit.RawSocket
   ( sourceTCP
   , TCPPacket (..)
+  , tcpProtocol
   ) where
 
 import System.IO.Unsafe (unsafePerformIO)
